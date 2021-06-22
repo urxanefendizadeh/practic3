@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 3px rgb(196, 194, 194);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 10%;
+    height: 50px;
+}
+.about{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #0D0D0D;
+    font-family: sans-serif;
+}
+a:hover{
+    color: #FF9F27;
+}
+
+.section{
+    width: 100%;
+    height: 450px;
+}
+.justify-content-center_aligin-items_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divs{
+    width: 70%;
+    height: 350px;
+}
+.smallDiv{
+    width: 32%;
+    height: 350px;
+    border: 1px solid rgb(196, 194, 194);
+    border-radius: 5px;;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 35px;
+}
+.smallDiv:hover{
+    width: 33%;
+    height: 360px;
+    transition: 250ms;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
+}
+.justify-content-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 50%;
+    height: 175px;
+}
+.text{
+    width: 80%;
+    height: 175px;
+}
+.aligin-items-center{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.photo1{
+    background-image: url(../images/1.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.photo2{
+    background-image: url(../images/2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.photo3{
+    background-image: url(../images/4.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+h3{
+    padding-top: 20px;
+}
+p{
+    font-family: sans-serif;
+    color: #56606D;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 15px;
+    line-height: 1.4;
+}
